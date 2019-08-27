@@ -14,12 +14,39 @@ namespace PythagoreanTriple
                 Console.WriteLine("PythagoreanTriple");
                 Console.WriteLine("---------------\n\r");
 
+                Console.Write("Write 2 natural Numbers: \n\r");
                 if (!double.TryParse(Console.ReadLine(), out var n1) || !double.TryParse(Console.ReadLine(), out var n2))
                 {
                     Console.ForegroundColor = ConsoleColor.Red;
                     Console.Write("Is not a natural number");
                     Console.ReadKey();
                     continue;
+                }
+
+                if (n2 < n1)
+                {
+                    var temp = n1;
+                    n1 = n2;
+                    n2 = temp;
+                }
+
+                // If given Numbers are a and b
+                var c = Math.Sqrt(Math.Pow(n1, 2) + Math.Pow(n2, 2));
+                // If given Numbers are b and c
+                var a = Math.Sqrt(-Math.Pow(n1, 2) + Math.Pow(n2, 2));
+                
+                Console.ForegroundColor = ConsoleColor.Cyan;
+                if (c % 1 < 0.01)
+                {
+                    Console.WriteLine("The Solution is " + c);
+                }
+                else if (a % 1 < 0.01)
+                { 
+                    Console.WriteLine("The Solution is " + a);
+                }
+                else
+                {
+                    Console.WriteLine("There's no Pythagorean Triple for these two numbers");
                 }
 
                 Console.ForegroundColor = ConsoleColor.Red;
