@@ -1,0 +1,10 @@
+C:\Projects\KoestliProjekt\StarTriangle\StarTriangle\bin\Debug\netcoreapp2.1\StarTriangle.deps.json
+C:\Projects\KoestliProjekt\StarTriangle\StarTriangle\bin\Debug\netcoreapp2.1\StarTriangle.runtimeconfig.json
+C:\Projects\KoestliProjekt\StarTriangle\StarTriangle\bin\Debug\netcoreapp2.1\StarTriangle.runtimeconfig.dev.json
+C:\Projects\KoestliProjekt\StarTriangle\StarTriangle\bin\Debug\netcoreapp2.1\StarTriangle.dll
+C:\Projects\KoestliProjekt\StarTriangle\StarTriangle\bin\Debug\netcoreapp2.1\StarTriangle.pdb
+C:\Projects\KoestliProjekt\StarTriangle\StarTriangle\obj\Debug\netcoreapp2.1\StarTriangle.csproj.CoreCompileInputs.cache
+C:\Projects\KoestliProjekt\StarTriangle\StarTriangle\obj\Debug\netcoreapp2.1\StarTriangle.AssemblyInfoInputs.cache
+C:\Projects\KoestliProjekt\StarTriangle\StarTriangle\obj\Debug\netcoreapp2.1\StarTriangle.AssemblyInfo.cs
+C:\Projects\KoestliProjekt\StarTriangle\StarTriangle\obj\Debug\netcoreapp2.1\StarTriangle.dll
+C:\Projects\KoestliProjekt\StarTriangle\StarTriangle\obj\Debug\netcoreapp2.1\StarTriangle.pdb
