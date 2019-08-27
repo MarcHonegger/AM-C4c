@@ -8,3 +8,4 @@ C:\Projects\KoestliProjekt\StarTriangle\StarTriangle\obj\Debug\netcoreapp2.1\Sta
 C:\Projects\KoestliProjekt\StarTriangle\StarTriangle\obj\Debug\netcoreapp2.1\StarTriangle.AssemblyInfo.cs
 C:\Projects\KoestliProjekt\StarTriangle\StarTriangle\obj\Debug\netcoreapp2.1\StarTriangle.dll
 C:\Projects\KoestliProjekt\StarTriangle\StarTriangle\obj\Debug\netcoreapp2.1\StarTriangle.pdb
+C:\Projects\KoestliProjekt\StarTriangle\StarTriangle\obj\Debug\netcoreapp2.1\StarTriangle.csprojAssemblyReference.cache

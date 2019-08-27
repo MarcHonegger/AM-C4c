@@ -1,0 +1,11 @@
+C:\Projects\KoestliProjekt\PowersOf2\PowersOf2\bin\Debug\netcoreapp2.1\PowersOf2.deps.json
+C:\Projects\KoestliProjekt\PowersOf2\PowersOf2\bin\Debug\netcoreapp2.1\PowersOf2.runtimeconfig.json
+C:\Projects\KoestliProjekt\PowersOf2\PowersOf2\bin\Debug\netcoreapp2.1\PowersOf2.runtimeconfig.dev.json
+C:\Projects\KoestliProjekt\PowersOf2\PowersOf2\bin\Debug\netcoreapp2.1\PowersOf2.dll
+C:\Projects\KoestliProjekt\PowersOf2\PowersOf2\bin\Debug\netcoreapp2.1\PowersOf2.pdb
+C:\Projects\KoestliProjekt\PowersOf2\PowersOf2\obj\Debug\netcoreapp2.1\PowersOf2.csprojAssemblyReference.cache
+C:\Projects\KoestliProjekt\PowersOf2\PowersOf2\obj\Debug\netcoreapp2.1\PowersOf2.csproj.CoreCompileInputs.cache
+C:\Projects\KoestliProjekt\PowersOf2\PowersOf2\obj\Debug\netcoreapp2.1\PowersOf2.AssemblyInfoInputs.cache
+C:\Projects\KoestliProjekt\PowersOf2\PowersOf2\obj\Debug\netcoreapp2.1\PowersOf2.AssemblyInfo.cs
+C:\Projects\KoestliProjekt\PowersOf2\PowersOf2\obj\Debug\netcoreapp2.1\PowersOf2.dll
+C:\Projects\KoestliProjekt\PowersOf2\PowersOf2\obj\Debug\netcoreapp2.1\PowersOf2.pdb

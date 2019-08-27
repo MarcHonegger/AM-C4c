@@ -8,7 +8,9 @@ namespace StarTriangle
         {
             while (true)
             {
+                Console.Clear();
                 Console.ResetColor();
+
                 Console.WriteLine("StarTriangle");
                 Console.WriteLine("---------------\n\r");
 
