@@ -34,8 +34,7 @@ namespace PythagoreanTriple
                 var c = Math.Sqrt(Math.Pow(n1, 2) + Math.Pow(n2, 2));
                 // If given Numbers are b and c
                 var a = Math.Sqrt(-Math.Pow(n1, 2) + Math.Pow(n2, 2));
-                
-                Console.ForegroundColor = ConsoleColor.Cyan;
+
                 if (c % 1 < 0.01)
                 {
                     Console.WriteLine("The Solution is " + c);
