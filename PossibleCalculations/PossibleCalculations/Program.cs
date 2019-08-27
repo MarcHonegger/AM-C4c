@@ -7,6 +7,8 @@ namespace PossibleCalculations
     {
         private static void Main()
         {
+            var resDescriptions = new List<string>(){"A + B", "A - B", "B - A", "A * B", "A / B", "B / A"};
+
             while (true)
             {
                 Console.Clear();
@@ -15,9 +17,9 @@ namespace PossibleCalculations
                 Console.WriteLine("PossibleCalculations");
                 Console.WriteLine("---------------\n\r");
 
-                Console.Write("Number One: ");
+                Console.Write("A: ");
                 var line1 = Console.ReadLine();
-                Console.Write("Number Two: ");
+                Console.Write("B: ");
                 var line2 = Console.ReadLine();
 
                 if (!uint.TryParse(line1, out var number1) || !uint.TryParse(line2, out var number2))
@@ -41,9 +43,10 @@ namespace PossibleCalculations
                     (double2 / double1),
                 };
 
-                foreach (var r in resolutions)
+                for (int i = 0; i < resolutions.Count; i++)
                 {
-                    Console.WriteLine(r);
+                    Console.Write(resDescriptions[i] + ": ");
+                    Console.WriteLine(resolutions[i]);
                 }
 
                 Console.ForegroundColor = ConsoleColor.Red;

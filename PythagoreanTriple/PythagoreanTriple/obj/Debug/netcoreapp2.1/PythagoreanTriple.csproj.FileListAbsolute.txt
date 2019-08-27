@@ -1,0 +1,11 @@
+C:\Projects\KoestliProjekt\PythagoreanTriple\PythagoreanTriple\bin\Debug\netcoreapp2.1\PythagoreanTriple.deps.json
+C:\Projects\KoestliProjekt\PythagoreanTriple\PythagoreanTriple\bin\Debug\netcoreapp2.1\PythagoreanTriple.runtimeconfig.json
+C:\Projects\KoestliProjekt\PythagoreanTriple\PythagoreanTriple\bin\Debug\netcoreapp2.1\PythagoreanTriple.runtimeconfig.dev.json
+C:\Projects\KoestliProjekt\PythagoreanTriple\PythagoreanTriple\bin\Debug\netcoreapp2.1\PythagoreanTriple.dll
+C:\Projects\KoestliProjekt\PythagoreanTriple\PythagoreanTriple\bin\Debug\netcoreapp2.1\PythagoreanTriple.pdb
+C:\Projects\KoestliProjekt\PythagoreanTriple\PythagoreanTriple\obj\Debug\netcoreapp2.1\PythagoreanTriple.csprojAssemblyReference.cache
+C:\Projects\KoestliProjekt\PythagoreanTriple\PythagoreanTriple\obj\Debug\netcoreapp2.1\PythagoreanTriple.csproj.CoreCompileInputs.cache
+C:\Projects\KoestliProjekt\PythagoreanTriple\PythagoreanTriple\obj\Debug\netcoreapp2.1\PythagoreanTriple.AssemblyInfoInputs.cache
+C:\Projects\KoestliProjekt\PythagoreanTriple\PythagoreanTriple\obj\Debug\netcoreapp2.1\PythagoreanTriple.AssemblyInfo.cs
+C:\Projects\KoestliProjekt\PythagoreanTriple\PythagoreanTriple\obj\Debug\netcoreapp2.1\PythagoreanTriple.dll
+C:\Projects\KoestliProjekt\PythagoreanTriple\PythagoreanTriple\obj\Debug\netcoreapp2.1\PythagoreanTriple.pdb

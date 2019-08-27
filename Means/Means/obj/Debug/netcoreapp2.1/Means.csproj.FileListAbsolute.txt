@@ -1,0 +1,10 @@
+C:\Projects\KoestliProjekt\Means\Means\bin\Debug\netcoreapp2.1\Means.deps.json
+C:\Projects\KoestliProjekt\Means\Means\bin\Debug\netcoreapp2.1\Means.runtimeconfig.json
+C:\Projects\KoestliProjekt\Means\Means\bin\Debug\netcoreapp2.1\Means.runtimeconfig.dev.json
+C:\Projects\KoestliProjekt\Means\Means\bin\Debug\netcoreapp2.1\Means.dll
+C:\Projects\KoestliProjekt\Means\Means\bin\Debug\netcoreapp2.1\Means.pdb
+C:\Projects\KoestliProjekt\Means\Means\obj\Debug\netcoreapp2.1\Means.csproj.CoreCompileInputs.cache
+C:\Projects\KoestliProjekt\Means\Means\obj\Debug\netcoreapp2.1\Means.AssemblyInfoInputs.cache
+C:\Projects\KoestliProjekt\Means\Means\obj\Debug\netcoreapp2.1\Means.AssemblyInfo.cs
+C:\Projects\KoestliProjekt\Means\Means\obj\Debug\netcoreapp2.1\Means.dll
+C:\Projects\KoestliProjekt\Means\Means\obj\Debug\netcoreapp2.1\Means.pdb
