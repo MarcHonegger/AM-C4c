@@ -1,0 +1,11 @@
+C:\Projects\KoestliProjekt\GreetApp\GreetApp\bin\Debug\netcoreapp2.1\GreetApp.deps.json
+C:\Projects\KoestliProjekt\GreetApp\GreetApp\bin\Debug\netcoreapp2.1\GreetApp.runtimeconfig.json
+C:\Projects\KoestliProjekt\GreetApp\GreetApp\bin\Debug\netcoreapp2.1\GreetApp.runtimeconfig.dev.json
+C:\Projects\KoestliProjekt\GreetApp\GreetApp\bin\Debug\netcoreapp2.1\GreetApp.dll
+C:\Projects\KoestliProjekt\GreetApp\GreetApp\bin\Debug\netcoreapp2.1\GreetApp.pdb
+C:\Projects\KoestliProjekt\GreetApp\GreetApp\obj\Debug\netcoreapp2.1\GreetApp.csprojAssemblyReference.cache
+C:\Projects\KoestliProjekt\GreetApp\GreetApp\obj\Debug\netcoreapp2.1\GreetApp.csproj.CoreCompileInputs.cache
+C:\Projects\KoestliProjekt\GreetApp\GreetApp\obj\Debug\netcoreapp2.1\GreetApp.AssemblyInfoInputs.cache
+C:\Projects\KoestliProjekt\GreetApp\GreetApp\obj\Debug\netcoreapp2.1\GreetApp.AssemblyInfo.cs
+C:\Projects\KoestliProjekt\GreetApp\GreetApp\obj\Debug\netcoreapp2.1\GreetApp.dll
+C:\Projects\KoestliProjekt\GreetApp\GreetApp\obj\Debug\netcoreapp2.1\GreetApp.pdb
