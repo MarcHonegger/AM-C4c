@@ -42,13 +42,14 @@ namespace Factorisation
                 {
                     if (count >= primeNumbers.Count)
                     {
-                        count = -1;
+                        count = 0;
                         break;
                     }
 
-                    if (x % primeNumbers[count] == 0)
+                    if (Math.Abs(y % primeNumbers[count]) < 0.01)
                     {
-                        Console.WriteLine(primeNumbers[count]);
+                        if (Math.Abs(y - x) > 0.01) Console.Write(", ");
+                        Console.Write(primeNumbers[count]);
                         y /= primeNumbers[count];
                         count = -1;
                     }
@@ -56,6 +57,7 @@ namespace Factorisation
                     count++;
                 }
 
+                Console.WriteLine();
                 Console.ForegroundColor = ConsoleColor.Red;
                 Console.Write("\n\r c to clear ");
                 if (Console.ReadKey().Key == ConsoleKey.C)
