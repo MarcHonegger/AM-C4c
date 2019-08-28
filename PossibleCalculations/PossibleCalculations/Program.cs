@@ -7,7 +7,8 @@ namespace PossibleCalculations
     {
         private static void Main()
         {
-            var resDescriptions = new List<string>(){"A + B", "A - B", "B - A", "A * B", "A / B", "B / A"};
+            // Console.OutPutEncoding = System.Text.Encoding.Unicode;
+            // ConsoleKeyInfo cki;
 
             while (true)
             {
@@ -17,21 +18,18 @@ namespace PossibleCalculations
                 Console.WriteLine("PossibleCalculations");
                 Console.WriteLine("---------------\n\r");
 
-                Console.Write("A: ");
+                Console.Write("Enter a Number: ");
                 var line1 = Console.ReadLine();
-                Console.Write("B: ");
+                Console.Write("Enter a second Number: ");
                 var line2 = Console.ReadLine();
 
-                if (!uint.TryParse(line1, out var number1) || !uint.TryParse(line2, out var number2))
+                if (!double.TryParse(line1, out var double1) || !double.TryParse(line2, out var double2))
                 {
                     Console.ForegroundColor = ConsoleColor.Red;
                     Console.Write("At least one is not a natural number");
                     Console.ReadKey();
                     continue;
                 }
-
-                double double1 = number1;
-                double double2 = number2;
 
                 var resolutions = new List<double>()
                 {
@@ -41,12 +39,34 @@ namespace PossibleCalculations
                     (double1 * double2),
                     (double1 / double2),
                     (double2 / double1),
+                    (Math.Pow(double1, double2)),
+                    (Math.Pow(double2, double1)), 
+                    Math.PI * double1 * double2
+                };
+
+                var resDescriptions = new List<string>()
+                {
+                    double1 + " + " + double2, double1 + " - " + double2, double2 + " - " + double1,
+                    double1 + " * " + double2, 
+                    Math.Abs(double2) > 0.01 ? double1 + " / " + double2 : double1 + " / " + double2 + ": Is not defined !", 
+                    Math.Abs(double1) > 0.01 ? double2 + " / " + double1 : double2 + " / " + double1 + ": Is not defined !",
+                    double1 + " ^ " + double2, double2 + " ^ " + double1, double1 + " * " + double2 + "* PI"
                 };
 
                 for (int i = 0; i < resolutions.Count; i++)
                 {
-                    Console.Write(resDescriptions[i] + ": ");
-                    Console.WriteLine(resolutions[i]);
+                    if (!resDescriptions[i].Contains("!"))
+                    {
+                        Console.ForegroundColor = ConsoleColor.Yellow;
+                        Console.Write(resDescriptions[i] + ": ");
+                        Console.ResetColor();
+                        Console.WriteLine(resolutions[i]);
+                    }
+                    else
+                    {
+                        Console.ForegroundColor = ConsoleColor.DarkRed;
+                        Console.WriteLine(resDescriptions[i]);
+                    }
                 }
 
                 Console.ForegroundColor = ConsoleColor.Red;

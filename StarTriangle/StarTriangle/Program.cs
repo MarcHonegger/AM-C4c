@@ -29,8 +29,8 @@ namespace StarTriangle
                     var spaces = size - 1 - i;
                     for (var j = 0; j < spaces; j++) s += " ";
 
-                    var stars = 1 + 2 * i;
-                    for (var j = 0; j < stars; j++) s += "*";
+                    var stars = 1 + i;
+                    for (var j = 0; j < stars; j++) s += " *";
                     Console.WriteLine(s);
                 }
 

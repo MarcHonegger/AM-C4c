@@ -15,7 +15,13 @@ namespace Factorisation
                 Console.WriteLine("Factorisation");
                 Console.WriteLine("---------------\n\r");
 
-                var x = int.Parse(Console.ReadLine());
+                if (!uint.TryParse(Console.ReadLine(), out var x))
+                {
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.Write("input is not a natural number");
+                    Console.ReadKey();
+                    continue;
+                }
                 var primeNumbers = new List<int> {2};
 
                 for (var i = 3; i < x; i += 2)
@@ -31,6 +37,7 @@ namespace Factorisation
                 }
 
                 var count = 0;
+                double y = x;
                 while (true)
                 {
                     if (count >= primeNumbers.Count)
@@ -42,7 +49,7 @@ namespace Factorisation
                     if (x % primeNumbers[count] == 0)
                     {
                         Console.WriteLine(primeNumbers[count]);
-                        x /= primeNumbers[count];
+                        y /= primeNumbers[count];
                         count = -1;
                     }
 
