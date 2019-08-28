@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\AMGitHub\\Factorisation\\Factorisation\\Factorisation.csproj": {}
+    "C:\\Projekte\\AM-C4c\\Factorisation\\Factorisation\\Factorisation.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\AMGitHub\\Factorisation\\Factorisation\\Factorisation.csproj": {
+    "C:\\Projekte\\AM-C4c\\Factorisation\\Factorisation\\Factorisation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\AMGitHub\\Factorisation\\Factorisation\\Factorisation.csproj",
+        "projectUniqueName": "C:\\Projekte\\AM-C4c\\Factorisation\\Factorisation\\Factorisation.csproj",
         "projectName": "Factorisation",
-        "projectPath": "C:\\Projects\\AMGitHub\\Factorisation\\Factorisation\\Factorisation.csproj",
-        "packagesPath": "C:\\Users\\Marc\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\AMGitHub\\Factorisation\\Factorisation\\obj\\",
+        "projectPath": "C:\\Projekte\\AM-C4c\\Factorisation\\Factorisation\\Factorisation.csproj",
+        "packagesPath": "C:\\Users\\march\\.nuget\\packages\\",
+        "outputPath": "C:\\Projekte\\AM-C4c\\Factorisation\\Factorisation\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Marc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\march\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

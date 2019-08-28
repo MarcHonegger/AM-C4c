@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\AMGitHub\\Calc\\Calc\\Calc.csproj": {}
+    "C:\\Projekte\\AM-C4c\\Calc\\Calc\\Calc.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\AMGitHub\\Calc\\Calc\\Calc.csproj": {
+    "C:\\Projekte\\AM-C4c\\Calc\\Calc\\Calc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\AMGitHub\\Calc\\Calc\\Calc.csproj",
+        "projectUniqueName": "C:\\Projekte\\AM-C4c\\Calc\\Calc\\Calc.csproj",
         "projectName": "Calc",
-        "projectPath": "C:\\Projects\\AMGitHub\\Calc\\Calc\\Calc.csproj",
-        "packagesPath": "C:\\Users\\Marc\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\AMGitHub\\Calc\\Calc\\obj\\",
+        "projectPath": "C:\\Projekte\\AM-C4c\\Calc\\Calc\\Calc.csproj",
+        "packagesPath": "C:\\Users\\march\\.nuget\\packages\\",
+        "outputPath": "C:\\Projekte\\AM-C4c\\Calc\\Calc\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Marc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\march\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

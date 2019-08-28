@@ -8,3 +8,14 @@ C:\Projects\KoestliProjekt\Means\Means\obj\Debug\netcoreapp2.1\Means.AssemblyInf
 C:\Projects\KoestliProjekt\Means\Means\obj\Debug\netcoreapp2.1\Means.AssemblyInfo.cs
 C:\Projects\KoestliProjekt\Means\Means\obj\Debug\netcoreapp2.1\Means.dll
 C:\Projects\KoestliProjekt\Means\Means\obj\Debug\netcoreapp2.1\Means.pdb
+C:\Projekte\AM-C4c\Means\Means\bin\Debug\netcoreapp2.1\Means.deps.json
+C:\Projekte\AM-C4c\Means\Means\bin\Debug\netcoreapp2.1\Means.runtimeconfig.json
+C:\Projekte\AM-C4c\Means\Means\bin\Debug\netcoreapp2.1\Means.runtimeconfig.dev.json
+C:\Projekte\AM-C4c\Means\Means\bin\Debug\netcoreapp2.1\Means.dll
+C:\Projekte\AM-C4c\Means\Means\bin\Debug\netcoreapp2.1\Means.pdb
+C:\Projekte\AM-C4c\Means\Means\obj\Debug\netcoreapp2.1\Means.csprojAssemblyReference.cache
+C:\Projekte\AM-C4c\Means\Means\obj\Debug\netcoreapp2.1\Means.csproj.CoreCompileInputs.cache
+C:\Projekte\AM-C4c\Means\Means\obj\Debug\netcoreapp2.1\Means.AssemblyInfoInputs.cache
+C:\Projekte\AM-C4c\Means\Means\obj\Debug\netcoreapp2.1\Means.AssemblyInfo.cs
+C:\Projekte\AM-C4c\Means\Means\obj\Debug\netcoreapp2.1\Means.dll
+C:\Projekte\AM-C4c\Means\Means\obj\Debug\netcoreapp2.1\Means.pdb
