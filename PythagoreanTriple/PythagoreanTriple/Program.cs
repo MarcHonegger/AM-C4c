@@ -37,7 +37,9 @@ namespace PythagoreanTriple
 
                 if (c % 1 < 0.01)
                 {
-                    Console.WriteLine("The Solution is " + c);
+                    Console.Write("a: " + n1 + ", b: " + n2 + ", ");
+                    Console.ForegroundColor = ConsoleColor.Blue;
+                    Console.WriteLine("c: " + c);
                 }
                 else if (a % 1 < 0.01)
                 { 
