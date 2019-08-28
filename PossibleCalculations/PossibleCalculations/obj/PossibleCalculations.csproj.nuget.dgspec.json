@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\KoestliProjekt\\PossibleCalculations\\PossibleCalculations\\PossibleCalculations.csproj": {}
+    "C:\\Projekte\\AM-C4c\\PossibleCalculations\\PossibleCalculations\\PossibleCalculations.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\KoestliProjekt\\PossibleCalculations\\PossibleCalculations\\PossibleCalculations.csproj": {
+    "C:\\Projekte\\AM-C4c\\PossibleCalculations\\PossibleCalculations\\PossibleCalculations.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\KoestliProjekt\\PossibleCalculations\\PossibleCalculations\\PossibleCalculations.csproj",
+        "projectUniqueName": "C:\\Projekte\\AM-C4c\\PossibleCalculations\\PossibleCalculations\\PossibleCalculations.csproj",
         "projectName": "PossibleCalculations",
-        "projectPath": "C:\\Projects\\KoestliProjekt\\PossibleCalculations\\PossibleCalculations\\PossibleCalculations.csproj",
-        "packagesPath": "C:\\Users\\Marc\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\KoestliProjekt\\PossibleCalculations\\PossibleCalculations\\obj\\",
+        "projectPath": "C:\\Projekte\\AM-C4c\\PossibleCalculations\\PossibleCalculations\\PossibleCalculations.csproj",
+        "packagesPath": "C:\\Users\\march\\.nuget\\packages\\",
+        "outputPath": "C:\\Projekte\\AM-C4c\\PossibleCalculations\\PossibleCalculations\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Marc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\march\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

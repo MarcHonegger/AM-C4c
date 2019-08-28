@@ -9,3 +9,14 @@ C:\Projects\AMGitHub\IsPrime\IsPrime\obj\Debug\netcoreapp2.1\IsPrime.AssemblyInf
 C:\Projects\AMGitHub\IsPrime\IsPrime\obj\Debug\netcoreapp2.1\IsPrime.AssemblyInfo.cs
 C:\Projects\AMGitHub\IsPrime\IsPrime\obj\Debug\netcoreapp2.1\IsPrime.dll
 C:\Projects\AMGitHub\IsPrime\IsPrime\obj\Debug\netcoreapp2.1\IsPrime.pdb
+C:\Projekte\AM-C4c\IsPrime\IsPrime\bin\Debug\netcoreapp2.1\IsPrime.deps.json
+C:\Projekte\AM-C4c\IsPrime\IsPrime\bin\Debug\netcoreapp2.1\IsPrime.runtimeconfig.json
+C:\Projekte\AM-C4c\IsPrime\IsPrime\bin\Debug\netcoreapp2.1\IsPrime.runtimeconfig.dev.json
+C:\Projekte\AM-C4c\IsPrime\IsPrime\bin\Debug\netcoreapp2.1\IsPrime.dll
+C:\Projekte\AM-C4c\IsPrime\IsPrime\bin\Debug\netcoreapp2.1\IsPrime.pdb
+C:\Projekte\AM-C4c\IsPrime\IsPrime\obj\Debug\netcoreapp2.1\IsPrime.csprojAssemblyReference.cache
+C:\Projekte\AM-C4c\IsPrime\IsPrime\obj\Debug\netcoreapp2.1\IsPrime.csproj.CoreCompileInputs.cache
+C:\Projekte\AM-C4c\IsPrime\IsPrime\obj\Debug\netcoreapp2.1\IsPrime.AssemblyInfoInputs.cache
+C:\Projekte\AM-C4c\IsPrime\IsPrime\obj\Debug\netcoreapp2.1\IsPrime.AssemblyInfo.cs
+C:\Projekte\AM-C4c\IsPrime\IsPrime\obj\Debug\netcoreapp2.1\IsPrime.dll
+C:\Projekte\AM-C4c\IsPrime\IsPrime\obj\Debug\netcoreapp2.1\IsPrime.pdb

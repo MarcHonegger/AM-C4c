@@ -14,7 +14,7 @@ namespace IsPrime
                 Console.WriteLine("IsPrime");
                 Console.WriteLine("---------------\n\r");
 
-                Console.Write("Prime Number: ");
+                Console.Write("Number: ");
                 var input = Console.ReadLine();
 
                 if (!uint.TryParse(input, out var prime))
@@ -38,7 +38,7 @@ namespace IsPrime
                 }
 
                 if (!isPrime)
-                    Console.WriteLine("Number is no Prime");
+                    Console.WriteLine("Number is not Prime");
 
                 if (isPrime)
                     Console.WriteLine("Number is Prime");

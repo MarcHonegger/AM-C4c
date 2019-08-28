@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\AMGitHub\\IsPrime\\IsPrime\\IsPrime.csproj": {}
+    "C:\\Projekte\\AM-C4c\\IsPrime\\IsPrime\\IsPrime.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\AMGitHub\\IsPrime\\IsPrime\\IsPrime.csproj": {
+    "C:\\Projekte\\AM-C4c\\IsPrime\\IsPrime\\IsPrime.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\AMGitHub\\IsPrime\\IsPrime\\IsPrime.csproj",
+        "projectUniqueName": "C:\\Projekte\\AM-C4c\\IsPrime\\IsPrime\\IsPrime.csproj",
         "projectName": "IsPrime",
-        "projectPath": "C:\\Projects\\AMGitHub\\IsPrime\\IsPrime\\IsPrime.csproj",
-        "packagesPath": "C:\\Users\\Marc\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\AMGitHub\\IsPrime\\IsPrime\\obj\\",
+        "projectPath": "C:\\Projekte\\AM-C4c\\IsPrime\\IsPrime\\IsPrime.csproj",
+        "packagesPath": "C:\\Users\\march\\.nuget\\packages\\",
+        "outputPath": "C:\\Projekte\\AM-C4c\\IsPrime\\IsPrime\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Marc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\march\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

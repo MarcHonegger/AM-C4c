@@ -9,3 +9,14 @@ C:\Projects\KoestliProjekt\StarTriangle\StarTriangle\obj\Debug\netcoreapp2.1\Sta
 C:\Projects\KoestliProjekt\StarTriangle\StarTriangle\obj\Debug\netcoreapp2.1\StarTriangle.dll
 C:\Projects\KoestliProjekt\StarTriangle\StarTriangle\obj\Debug\netcoreapp2.1\StarTriangle.pdb
 C:\Projects\KoestliProjekt\StarTriangle\StarTriangle\obj\Debug\netcoreapp2.1\StarTriangle.csprojAssemblyReference.cache
+C:\Projekte\AM-C4c\StarTriangle\StarTriangle\bin\Debug\netcoreapp2.1\StarTriangle.deps.json
+C:\Projekte\AM-C4c\StarTriangle\StarTriangle\bin\Debug\netcoreapp2.1\StarTriangle.runtimeconfig.json
+C:\Projekte\AM-C4c\StarTriangle\StarTriangle\bin\Debug\netcoreapp2.1\StarTriangle.runtimeconfig.dev.json
+C:\Projekte\AM-C4c\StarTriangle\StarTriangle\bin\Debug\netcoreapp2.1\StarTriangle.dll
+C:\Projekte\AM-C4c\StarTriangle\StarTriangle\bin\Debug\netcoreapp2.1\StarTriangle.pdb
+C:\Projekte\AM-C4c\StarTriangle\StarTriangle\obj\Debug\netcoreapp2.1\StarTriangle.csprojAssemblyReference.cache
+C:\Projekte\AM-C4c\StarTriangle\StarTriangle\obj\Debug\netcoreapp2.1\StarTriangle.csproj.CoreCompileInputs.cache
+C:\Projekte\AM-C4c\StarTriangle\StarTriangle\obj\Debug\netcoreapp2.1\StarTriangle.AssemblyInfoInputs.cache
+C:\Projekte\AM-C4c\StarTriangle\StarTriangle\obj\Debug\netcoreapp2.1\StarTriangle.AssemblyInfo.cs
+C:\Projekte\AM-C4c\StarTriangle\StarTriangle\obj\Debug\netcoreapp2.1\StarTriangle.dll
+C:\Projekte\AM-C4c\StarTriangle\StarTriangle\obj\Debug\netcoreapp2.1\StarTriangle.pdb
