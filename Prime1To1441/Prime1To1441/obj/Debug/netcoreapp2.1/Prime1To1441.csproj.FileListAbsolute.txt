@@ -1,0 +1,11 @@
+C:\Projekte\AM-C4c\Prime1To1441\Prime1To1441\bin\Debug\netcoreapp2.1\Prime1To1441.deps.json
+C:\Projekte\AM-C4c\Prime1To1441\Prime1To1441\bin\Debug\netcoreapp2.1\Prime1To1441.runtimeconfig.json
+C:\Projekte\AM-C4c\Prime1To1441\Prime1To1441\bin\Debug\netcoreapp2.1\Prime1To1441.runtimeconfig.dev.json
+C:\Projekte\AM-C4c\Prime1To1441\Prime1To1441\bin\Debug\netcoreapp2.1\Prime1To1441.dll
+C:\Projekte\AM-C4c\Prime1To1441\Prime1To1441\bin\Debug\netcoreapp2.1\Prime1To1441.pdb
+C:\Projekte\AM-C4c\Prime1To1441\Prime1To1441\obj\Debug\netcoreapp2.1\Prime1To1441.csprojAssemblyReference.cache
+C:\Projekte\AM-C4c\Prime1To1441\Prime1To1441\obj\Debug\netcoreapp2.1\Prime1To1441.csproj.CoreCompileInputs.cache
+C:\Projekte\AM-C4c\Prime1To1441\Prime1To1441\obj\Debug\netcoreapp2.1\Prime1To1441.AssemblyInfoInputs.cache
+C:\Projekte\AM-C4c\Prime1To1441\Prime1To1441\obj\Debug\netcoreapp2.1\Prime1To1441.AssemblyInfo.cs
+C:\Projekte\AM-C4c\Prime1To1441\Prime1To1441\obj\Debug\netcoreapp2.1\Prime1To1441.dll
+C:\Projekte\AM-C4c\Prime1To1441\Prime1To1441\obj\Debug\netcoreapp2.1\Prime1To1441.pdb
