@@ -12,3 +12,11 @@ C:\Projekte\AM-C4c\Factorisation\Factorisation\obj\Debug\netcoreapp2.1\Factorisa
 C:\Projekte\AM-C4c\Factorisation\Factorisation\obj\Debug\netcoreapp2.1\Factorisation.AssemblyInfo.cs
 C:\Projekte\AM-C4c\Factorisation\Factorisation\obj\Debug\netcoreapp2.1\Factorisation.dll
 C:\Projekte\AM-C4c\Factorisation\Factorisation\obj\Debug\netcoreapp2.1\Factorisation.pdb
+C:\Projects\AMGitHub\Factorisation\Factorisation\bin\Debug\netcoreapp2.1\Factorisation.deps.json
+C:\Projects\AMGitHub\Factorisation\Factorisation\bin\Debug\netcoreapp2.1\Factorisation.runtimeconfig.json
+C:\Projects\AMGitHub\Factorisation\Factorisation\bin\Debug\netcoreapp2.1\Factorisation.runtimeconfig.dev.json
+C:\Projects\AMGitHub\Factorisation\Factorisation\bin\Debug\netcoreapp2.1\Factorisation.dll
+C:\Projects\AMGitHub\Factorisation\Factorisation\bin\Debug\netcoreapp2.1\Factorisation.pdb
+C:\Projects\AMGitHub\Factorisation\Factorisation\obj\Debug\netcoreapp2.1\Factorisation.csprojAssemblyReference.cache
+C:\Projects\AMGitHub\Factorisation\Factorisation\obj\Debug\netcoreapp2.1\Factorisation.dll
+C:\Projects\AMGitHub\Factorisation\Factorisation\obj\Debug\netcoreapp2.1\Factorisation.pdb

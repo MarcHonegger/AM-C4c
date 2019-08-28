@@ -15,6 +15,7 @@ namespace Factorisation
                 Console.WriteLine("Factorisation");
                 Console.WriteLine("---------------\n\r");
 
+                Console.Write("Write a number: ");
                 if (!uint.TryParse(Console.ReadLine(), out var x))
                 {
                     Console.ForegroundColor = ConsoleColor.Red;
@@ -22,39 +23,48 @@ namespace Factorisation
                     Console.ReadKey();
                     continue;
                 }
+
                 var primeNumbers = new List<int> {2};
 
-                for (var i = 3; i < x; i += 2)
+                var isPrime = true;
+
+                for (var j = 3; j < x; j += 2)
+                    if (x % j == 0)
+                        isPrime = false;
+
+                if (isPrime)
                 {
-                    var isPrime = true;
-
-                    for (var j = 3; j < i; j += 2)
-                        if (i % j == 0)
-                            isPrime = false;
-
-                    if (isPrime)
-                        primeNumbers.Add(i);
+                    Console.Write("\n In Prime Factors: " + x);
                 }
-
-                var count = 0;
-                double y = x;
-                while (true)
+                else
                 {
-                    if (count >= primeNumbers.Count)
+                    for (var j = 3; j <= x / 2; j += 2)
                     {
-                        count = 0;
-                        break;
+                        for (var i = 2; i < j; i++)
+                            if (j % i == 0)
+                                break;
+
+                        primeNumbers.Add(j);
                     }
 
-                    if (Math.Abs(y % primeNumbers[count]) < 0.01)
-                    {
-                        if (Math.Abs(y - x) > 0.01) Console.Write(", ");
-                        Console.Write(primeNumbers[count]);
-                        y /= primeNumbers[count];
-                        count = -1;
-                    }
+                    Console.Write("In Prime Factors: ");
 
-                    count++;
+                    const int count = 0;
+                    double y = x;
+                    while (true)
+                    {
+                        if (count >= primeNumbers.Count) break;
+
+                        if (Math.Abs(y % primeNumbers[count]) < 0.01)
+                        {
+                            if (Math.Abs(y - x) > 0.01) Console.Write(", ");
+                            Console.Write(primeNumbers[count]);
+                            y /= primeNumbers[count];
+                            continue;
+                        }
+
+                        primeNumbers.RemoveAt(0);
+                    }
                 }
 
                 Console.WriteLine();
