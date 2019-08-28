@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\AMGitHub\\PythagoreanTriple\\PythagoreanTriple\\PythagoreanTriple.csproj": {}
+    "C:\\Projekte\\AM-C4c\\PythagoreanTriple\\PythagoreanTriple\\PythagoreanTriple.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\AMGitHub\\PythagoreanTriple\\PythagoreanTriple\\PythagoreanTriple.csproj": {
+    "C:\\Projekte\\AM-C4c\\PythagoreanTriple\\PythagoreanTriple\\PythagoreanTriple.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\AMGitHub\\PythagoreanTriple\\PythagoreanTriple\\PythagoreanTriple.csproj",
+        "projectUniqueName": "C:\\Projekte\\AM-C4c\\PythagoreanTriple\\PythagoreanTriple\\PythagoreanTriple.csproj",
         "projectName": "PythagoreanTriple",
-        "projectPath": "C:\\Projects\\AMGitHub\\PythagoreanTriple\\PythagoreanTriple\\PythagoreanTriple.csproj",
-        "packagesPath": "C:\\Users\\Marc\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\AMGitHub\\PythagoreanTriple\\PythagoreanTriple\\obj\\",
+        "projectPath": "C:\\Projekte\\AM-C4c\\PythagoreanTriple\\PythagoreanTriple\\PythagoreanTriple.csproj",
+        "packagesPath": "C:\\Users\\march\\.nuget\\packages\\",
+        "outputPath": "C:\\Projekte\\AM-C4c\\PythagoreanTriple\\PythagoreanTriple\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Marc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\march\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

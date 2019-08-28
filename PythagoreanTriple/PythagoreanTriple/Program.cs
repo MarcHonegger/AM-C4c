@@ -32,7 +32,7 @@ namespace PythagoreanTriple
 
                 // If given Numbers are a and b
                 var c = Math.Sqrt(Math.Pow(n1, 2) + Math.Pow(n2, 2));
-                // If given Numbers are b and c
+                // If given Numbers are a/b and c
                 var a = Math.Sqrt(-Math.Pow(n1, 2) + Math.Pow(n2, 2));
 
                 if (c % 1 < 0.01)

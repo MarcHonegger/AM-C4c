@@ -688,23 +688,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Marc\\.nuget\\packages\\": {},
+    "C:\\Users\\march\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\KoestliProjekt\\PowersOf2\\PowersOf2\\PowersOf2.csproj",
+      "projectUniqueName": "C:\\Projekte\\AM-C4c\\PowersOf2\\PowersOf2\\PowersOf2.csproj",
       "projectName": "PowersOf2",
-      "projectPath": "C:\\Projects\\KoestliProjekt\\PowersOf2\\PowersOf2\\PowersOf2.csproj",
-      "packagesPath": "C:\\Users\\Marc\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\KoestliProjekt\\PowersOf2\\PowersOf2\\obj\\",
+      "projectPath": "C:\\Projekte\\AM-C4c\\PowersOf2\\PowersOf2\\PowersOf2.csproj",
+      "packagesPath": "C:\\Users\\march\\.nuget\\packages\\",
+      "outputPath": "C:\\Projekte\\AM-C4c\\PowersOf2\\PowersOf2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Marc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\march\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

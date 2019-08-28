@@ -8,3 +8,13 @@ C:\Projects\AMGitHub\DecToBin\DecToBin\obj\Debug\netcoreapp2.1\DecToBin.Assembly
 C:\Projects\AMGitHub\DecToBin\DecToBin\obj\Debug\netcoreapp2.1\DecToBin.AssemblyInfo.cs
 C:\Projects\AMGitHub\DecToBin\DecToBin\obj\Debug\netcoreapp2.1\DecToBin.dll
 C:\Projects\AMGitHub\DecToBin\DecToBin\obj\Debug\netcoreapp2.1\DecToBin.pdb
+C:\Projekte\AM-C4c\DecToBin\DecToBin\bin\Debug\netcoreapp2.1\DecToBin.deps.json
+C:\Projekte\AM-C4c\DecToBin\DecToBin\bin\Debug\netcoreapp2.1\DecToBin.runtimeconfig.json
+C:\Projekte\AM-C4c\DecToBin\DecToBin\bin\Debug\netcoreapp2.1\DecToBin.runtimeconfig.dev.json
+C:\Projekte\AM-C4c\DecToBin\DecToBin\bin\Debug\netcoreapp2.1\DecToBin.dll
+C:\Projekte\AM-C4c\DecToBin\DecToBin\bin\Debug\netcoreapp2.1\DecToBin.pdb
+C:\Projekte\AM-C4c\DecToBin\DecToBin\obj\Debug\netcoreapp2.1\DecToBin.csproj.CoreCompileInputs.cache
+C:\Projekte\AM-C4c\DecToBin\DecToBin\obj\Debug\netcoreapp2.1\DecToBin.AssemblyInfoInputs.cache
+C:\Projekte\AM-C4c\DecToBin\DecToBin\obj\Debug\netcoreapp2.1\DecToBin.AssemblyInfo.cs
+C:\Projekte\AM-C4c\DecToBin\DecToBin\obj\Debug\netcoreapp2.1\DecToBin.dll
+C:\Projekte\AM-C4c\DecToBin\DecToBin\obj\Debug\netcoreapp2.1\DecToBin.pdb
