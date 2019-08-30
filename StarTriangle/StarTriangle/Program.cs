@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 
 namespace StarTriangle
 {
@@ -16,57 +17,74 @@ namespace StarTriangle
                 Console.ResetColor();
 
                 Console.WriteLine("StarTriangle");
-                Console.WriteLine("---------------\n\r");
+                Console.WriteLine($"---------------{Environment.NewLine}");
 
                 Console.Write("Size: ");
-                if (!uint.TryParse(Console.ReadLine(), out var size))
+                if (!int.TryParse(Console.ReadLine(), out var size) || size < 0)
                 {
                     Console.ForegroundColor = ConsoleColor.Red;
                     Console.Write("Input is not a natural number");
                     Console.ReadKey();
                     continue;
                 }
-                
+
                 Console.ForegroundColor = ConsoleColor.Blue;
                 Console.WriteLine("Click R for Rainbow");
-                if (Console.ReadKey(true).Key == ConsoleKey.R) rainbow = true;
-                
-                Console.ForegroundColor = ConsoleColor.Blue;
+                if (Console.ReadKey(true).Key == ConsoleKey.R)
+                    rainbow = true;
+
                 Console.WriteLine("Click F to fill");
-                if (Console.ReadKey(true).Key == ConsoleKey.F) filled = true;
+                if (Console.ReadKey(true).Key == ConsoleKey.F) 
+                    filled = true;
+                
+                Console.ResetColor();
 
                 Console.WriteLine();
 
-                for (var i = 0; i < size - 1; i++)
-                {
-                    var s = "  ";
-                    var spaces = size - 1 - i;
-                    for (var j = 0; j < spaces; j++) s += " ";
+                const string leftPad = "  ";
+                const char fillChar = '*';
+                const char spacing = ' ';
 
-                    var stars = 1 + i;
-                    if (stars >= 3 && !filled)
+                var s = new StringBuilder();
+                for (var stars = 1; stars <= size; stars++)
+                {
+                    s.Append(leftPad);
+
+                    var spaces = size - stars;
+                    s.Append(spacing, spaces);
+
+                    if (filled || stars == size)
                     {
-                        s += " *";
-                        for (var j = 2; j < stars; j++) s += "  ";
-                        s += " *";
+                        for (var j = 0; j < stars; j++)
+                        {
+                            s.Append(spacing);
+                            s.Append(fillChar);
+                        }
                     }
                     else
                     {
-                        for (var j = 0; j < stars; j++) s += " *";
+                        s.Append(spacing);
+                        s.Append(fillChar);
+                        if (stars > 1)
+                        {
+                            s.Append(spacing, (stars - 1) * 2 - 1);
+                            s.Append(fillChar);
+                        }
                     }
 
-                    if (rainbow) Console.ForegroundColor = (ConsoleColor) r.Next(1, 16);
-                    else Console.ResetColor();
+                    s.AppendLine();
 
-                    Console.WriteLine(s);
+                    if (rainbow)
+                    {
+                        Console.ForegroundColor = (ConsoleColor) r.Next(1, 16);
+                    }
                 }
+                Console.WriteLine(s);
 
-                Console.Write("  ");
-                for (var i = 0; i < size; i++) Console.Write(" *");
                 Console.WriteLine();
 
                 Console.ForegroundColor = ConsoleColor.Red;
-                Console.Write("\n\r c to clear ");
+                Console.Write("Click C to clear ");
                 if (Console.ReadKey().Key == ConsoleKey.C)
                 {
                     Console.Clear();
