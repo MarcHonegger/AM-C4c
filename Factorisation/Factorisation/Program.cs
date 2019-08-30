@@ -5,7 +5,17 @@ namespace Factorisation
 {
     internal static class Program
     {
-        private static void Main()
+        private static bool IsPrime(long x)
+        {
+            var max = Math.Ceiling(Math.Sqrt(x));
+            for (var j = 3; j < max; j += 2)
+                if (x % j == 0)
+                    return false;
+
+            return true;
+        }
+
+        public static void Main()
         {
             while (true)
             {
@@ -13,10 +23,10 @@ namespace Factorisation
                 Console.ResetColor();
 
                 Console.WriteLine("Factorisation");
-                Console.WriteLine("---------------\n\r");
+                Console.WriteLine($"---------------{Environment.NewLine}");
 
                 Console.Write("Write a number: ");
-                if (!uint.TryParse(Console.ReadLine(), out var x))
+                if (!long.TryParse(Console.ReadLine(), out var x) || x < 0)
                 {
                     Console.ForegroundColor = ConsoleColor.Red;
                     Console.Write("input is not a natural number");
@@ -24,47 +34,31 @@ namespace Factorisation
                     continue;
                 }
 
-                var primeNumbers = new List<int> {2};
 
-                var isPrime = true;
-
-                for (var j = 3; j < x; j += 2)
-                    if (x % j == 0)
-                        isPrime = false;
-
-                if (isPrime)
+                if (IsPrime(x))
                 {
-                    Console.Write("\n In Prime Factors: " + x);
+                    Console.WriteLine("In Prime Factors: " + x);
                 }
                 else
                 {
-                    for (var j = 3; j <= x / 2; j += 2)
-                    {
-                        for (var i = 2; i < j; i++)
-                            if (j % i == 0)
-                                break;
+                    var primeNumbers = new List<long> {2};
 
-                        primeNumbers.Add(j);
-                    }
+                    var max = Math.Ceiling(Math.Sqrt(x));
+                    for (var j = 3; j <= max; j += 2)
+                        if (IsPrime(j))
+                            primeNumbers.Add(j);
 
                     Console.Write("In Prime Factors: ");
 
-                    const int count = 0;
-                    double y = x;
-                    while (true)
-                    {
-                        if (count >= primeNumbers.Count) break;
-
-                        if (Math.Abs(y % primeNumbers[count]) < 0.01)
+                    var y = x;
+                    foreach (var primeNumber in primeNumbers)
+                        while (y % primeNumber == 0)
                         {
-                            if (Math.Abs(y - x) > 0.01) Console.Write(", ");
-                            Console.Write(primeNumbers[count]);
-                            y /= primeNumbers[count];
-                            continue;
-                        }
+                            if (y != x) Console.Write(", ");
 
-                        primeNumbers.RemoveAt(0);
-                    }
+                            Console.Write(primeNumber);
+                            y /= primeNumber;
+                        }
                 }
 
                 Console.WriteLine();
