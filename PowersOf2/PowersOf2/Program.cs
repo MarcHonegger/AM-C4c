@@ -21,7 +21,7 @@ namespace PowersOf2
                     continue;
                 }
 
-                var s = "";
+                var s = " ";
                 for (var i = 0; i < exponent; i++) s += Math.Pow(2, i) + " ";
 
                 Console.WriteLine(s);
