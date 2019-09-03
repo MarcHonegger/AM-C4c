@@ -7,8 +7,6 @@ namespace Means
     {
         private static void Main()
         {
-            var resDescriptions = new List<string>(){"arithmetic mean", "geometric mean", "harmonic mean", "quadratic mean"};
-
             while (true)
             {
                 Console.Clear();
@@ -30,18 +28,17 @@ namespace Means
                     continue;
                 }
 
-                var resolutions = new List<double>
+                var res = new List<(string title, double result)>
                 {
-                    (double1 + double2) / 2,
-                    Math.Sqrt(double1 * double2),
-                    2 / (1 / double2 + 1 / double1),
-                    Math.Sqrt((Math.Pow(double1, 2) + Math.Pow(double2, 2)) / 2)
+                    ("arithmetic mean", (double1 + double2) / 2),
+                    ("geometric mean", Math.Sqrt(double1 * double2)),
+                    ("harmonic mean", 2 / (1 / double2 + 1 / double1)),
+                    ("quadratic mean", Math.Sqrt((Math.Pow(double1, 2) + Math.Pow(double2, 2)) / 2))
                 };
 
-                for (var i = 0; i < resolutions.Count; i++)
+                foreach (var (title, result) in res)
                 {
-                    Console.Write(resDescriptions[i] + ": ");
-                    Console.WriteLine(resolutions[i]);
+                    Console.WriteLine($"{title}: {result}");
                 }
 
                 Console.ForegroundColor = ConsoleColor.Red;
