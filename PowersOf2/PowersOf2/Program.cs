@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Diagnostics;
+using System.Text;
 
 namespace PowersOf2
 {
@@ -21,8 +23,8 @@ namespace PowersOf2
                     continue;
                 }
 
-                var s = " ";
-                for (var i = 0; i < exponent; i++) s += Math.Pow(2, i) + " ";
+                var s = new StringBuilder();
+                for (var i = 0; i < exponent + 1; i++) s.Append(Math.Pow(2, i) + ", ");
 
                 Console.WriteLine(s);
 
