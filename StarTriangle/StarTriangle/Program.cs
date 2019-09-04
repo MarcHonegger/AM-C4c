@@ -29,7 +29,7 @@ namespace StarTriangle
                 }
 
                 Console.ForegroundColor = ConsoleColor.Blue;
-                Console.WriteLine("Click R for Rainbow");
+                Console.WriteLine("Click R for Colored");
                 if (Console.ReadKey(true).Key == ConsoleKey.R)
                     rainbow = true;
 
