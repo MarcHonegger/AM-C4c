@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Globalization;
+using System.Text;
 
 namespace Fibonacci
 {
@@ -7,36 +9,42 @@ namespace Fibonacci
         public static void Main()
         {
             while (true)
-            {
+            { 
                 Console.Clear();
                 Console.ResetColor();
 
                 Console.WriteLine("Fibonacci");
                 Console.WriteLine($"---------------{Environment.NewLine}");
 
-                Console.Write("Write a number: ");
-                if (!int.TryParse(Console.ReadLine(), out var x))
+                double a = 0, b = 1;
+
+                Console.WriteLine(a + " | " + b + " = " + a / b);
+                for (var i = 2; i < 50; i++)
                 {
-                    Console.ForegroundColor = ConsoleColor.Red;
-                    Console.Write("input is not a natural number");
-                    Console.ReadKey();
-                    continue;
-                }
+                    Console.ResetColor();
 
-                long b = 1, c = 0;
-
-                for (var i = 2; i < x; i++)
-                {
-                    Console.Write(c + " ");
-
-                    var a = b;
+                    var c = a + b;
+                    a = b;
                     b = c;
-                    c = a + b;
+
+                    var s = "";
+
+
+                    for (int j = 2;
+                        j < 22 - a.ToString(CultureInfo.InvariantCulture).Length -
+                        b.ToString(CultureInfo.InvariantCulture).Length;
+                        j++)
+                    {
+                        s += " ";
+                    }
+
+                    Console.Write($"{a} | {b} {s} = ");
+                    Console.ForegroundColor = ConsoleColor.Yellow;
+                    Console.WriteLine(Math.Round(a / b, 15));
 
                     if (c < 0) break;
                 }
 
-                Console.WriteLine();
                 Console.ForegroundColor = ConsoleColor.Red;
                 Console.Write("\n\r c to clear ");
                 if (Console.ReadKey().Key == ConsoleKey.C)
