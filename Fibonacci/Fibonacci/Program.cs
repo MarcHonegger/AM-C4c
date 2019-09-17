@@ -18,7 +18,7 @@ namespace Fibonacci
 
                 double a = 0, b = 1;
 
-                Console.WriteLine(a + " | " + b + " = " + a / b);
+                Console.WriteLine(a + " / " + b + " = " + a / b);
                 for (var i = 2; i < 50; i++)
                 {
                     Console.ResetColor();
@@ -30,15 +30,12 @@ namespace Fibonacci
                     var s = "";
 
 
-                    for (int j = 2;
-                        j < 22 - a.ToString(CultureInfo.InvariantCulture).Length -
-                        b.ToString(CultureInfo.InvariantCulture).Length;
-                        j++)
+                    for (var j = 2; j < 22 - a.ToString(CultureInfo.InvariantCulture).Length - b.ToString(CultureInfo.InvariantCulture).Length; j++)
                     {
                         s += " ";
                     }
 
-                    Console.Write($"{a} | {b} {s} = ");
+                    Console.Write($"{a} / {b} {s} = ");
                     Console.ForegroundColor = ConsoleColor.Yellow;
                     Console.WriteLine(Math.Round(a / b, 15));
 
