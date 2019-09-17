@@ -28,17 +28,25 @@ namespace Means
                     continue;
                 }
 
-                var res = new List<(string title, double result)>
+                var res = new List<(string title, string description, double result)>
                 {
-                    ("arithmetic mean", (double1 + double2) / 2),
-                    ("geometric mean", Math.Sqrt(double1 * double2)),
-                    ("harmonic mean", 2 / (1 / double2 + 1 / double1)),
-                    ("quadratic mean", Math.Sqrt((Math.Pow(double1, 2) + Math.Pow(double2, 2)) / 2))
+                    ("arithmetic mean", "(a + b) / 2", (double1 + double2) / 2),
+                    ("geometric mean", "Sqrt(a * b)", Math.Sqrt(double1 * double2)),
+                    ("harmonic mean", "2 / (1 / a + 1 / b)", 2 / (1 / double2 + 1 / double1)),
+                    ("quadratic mean", "Sqrt((a ^ 2 + b ^ 2) / 2)", Math.Sqrt((Math.Pow(double1, 2) + Math.Pow(double2, 2)) / 2))
                 };
 
-                foreach (var (title, result) in res)
+                foreach (var (title, _, result) in res)
                 {
-                    Console.WriteLine($"{title}: {result}");
+                    Console.WriteLine($"{title}: {Math.Round(result, 4)}");
+                }
+
+                Console.WriteLine();
+
+                foreach (var (title, description, _) in res)
+                {
+                    Console.ForegroundColor = ConsoleColor.Green;
+                    Console.WriteLine($"{title}: {description}");
                 }
 
                 Console.ForegroundColor = ConsoleColor.Red;

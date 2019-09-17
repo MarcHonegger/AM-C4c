@@ -6,39 +6,13 @@ namespace Calc
     {
         private static void Main(string[] args)
         {
-            while (true)
-            {
-                Console.Clear();
-                Console.ResetColor();
-
-                Console.WriteLine("PossibleCalculations");
-                Console.WriteLine("---------------\n\r");
-
-                Console.Write("A: ");
-                var line1 = Console.ReadLine();
-                Console.Write("B: ");
-                var line2 = Console.ReadLine();
-
-                if (!double.TryParse(line1, out var double1) || !double.TryParse(line2, out var double2))
+                // Command line arguments  
+                Console.WriteLine("Argument length: " + args.Length);  
+                Console.WriteLine("Supplied Arguments are: ");  
+                foreach (var obj in args)  
                 {
-                    Console.ForegroundColor = ConsoleColor.Red;
-                    Console.Write("At least one is not a number");
-                    Console.ReadKey();
-                    continue;
+                    Console.WriteLine(obj);       
                 }
-
-                Console.ForegroundColor = ConsoleColor.Red;
-                Console.Write("\n\r c to clear ");
-                if (Console.ReadKey().Key == ConsoleKey.C)
-                {
-                    Console.Clear();
-                    continue;
-                }
-
-                break;
-            }
         }
     }
-}
-
 }

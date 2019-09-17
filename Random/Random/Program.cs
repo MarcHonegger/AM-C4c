@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Globalization;
 
 namespace Random
@@ -15,6 +16,7 @@ namespace Random
                 Console.WriteLine("Random");
                 Console.WriteLine("---------------\n\r");
 
+                /*
                 if (!uint.TryParse(Console.ReadLine(), out var amount))
                 {
                     Console.ForegroundColor = ConsoleColor.Red;
@@ -22,9 +24,22 @@ namespace Random
                     Console.ReadKey();
                     continue;
                 }
+                */
 
                 var random = new System.Random();
-                for (var i = 0; i < amount; i++) Console.WriteLine(random.Next());
+
+                var numbers = new List<int>()
+                {
+                    random.Next(0, 10),
+                    random.Next(0, 10),
+                    random.Next(0, 10)
+                };
+
+                foreach (var n in numbers)
+                {
+                    Console.Write(n);
+                }
+                
 
                 Console.ForegroundColor = ConsoleColor.Red;
                 Console.Write("\n\r c to clear ");

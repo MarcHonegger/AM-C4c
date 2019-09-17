@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Calc": {
+      "commandName": "Project",
+      "commandLineArgs": "bla bea bua ava"
+    }
+  }
+}
